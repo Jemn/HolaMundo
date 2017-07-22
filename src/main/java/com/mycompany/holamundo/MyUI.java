@@ -32,7 +32,7 @@ public class MyUI extends UI {
         Button button = new Button("Click Me");
         button.addClickListener( e -> {
             layout.addComponent(new Label("Thanks " + name.getValue() 
-                    + ", it works de paladar shirly!"));
+                    + ", it works de paladar jemn!"));
         });
         
         layout.addComponents(name, button);
